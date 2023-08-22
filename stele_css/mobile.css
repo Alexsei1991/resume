@@ -1,0 +1,606 @@
+
+
+
+body{
+    background-color: #D9D9D9; /* Цвет фона веб-страницы */
+    margin: 0px;
+   } 
+  
+a {
+    text-decoration: none;
+                color: #000000;
+}
+
+a.white {
+        text-decoration: none;
+                color: #FFF;
+}
+
+p {
+            color: #000000; /*  цвет символов */ 
+            margin: 0px 0px 0px 0px;
+}   
+
+p.text {
+                margin: 10px 0px 0px 0px;
+}
+
+ul {
+    padding: 0px 0px 0px 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+#min_spis {
+    color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+li {
+                    margin: 12px 0px 0px 0px;
+}
+
+.opt {
+                        margin: 4px 0px 0px 0px;
+}
+
+h3 {
+color: #3DB695;
+font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 22px 0px 0px 10px;
+}
+
+.ty {
+border-bottom: 2px solid #FFF;
+  padding-bottom: 5px;
+  margin: 0px 60px 0px 60px;
+  padding: 17px 0px 0px 0px;;
+   text-align:center;
+color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+img {
+    margin: 10px;
+}
+
+
+header {
+  position: relative;
+    width: 430px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+}   
+
+#rezume {
+    position: absolute;
+    width: 430px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #FFFCFC;
+}
+
+#femili {
+    width: 430px;
+    height: 140px;
+  position: absolute;
+  top: 0px;
+}
+
+#neim {
+    width: 430px;
+    height: 120px;
+    background-color: #C5EDE3;
+    position: absolute;
+  top: 10px;
+}
+
+#nik {
+position: absolute;
+top: 28px;
+left: 30px;
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+        margin: 0px 0px 0px 0px;
+}
+
+#profesion {
+position: absolute;
+top: 75px;
+left: 65px;
+color: #000;
+font-family: 'Roboto Mono', monospace;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+        margin: 0px 0px 0px 0px;
+}
+
+#avatar {
+    width: 430px;
+    height: 140px;
+    position: absolute;
+  top: 0px;
+    background-image: url("../images/header/IMG_2136 3.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+
+                            
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    width: 430px;
+    height: 1756px;
+    background-color: #FFFCFC;
+}
+
+span {
+    color: #2360FD;
+}
+
+
+
+
+
+
+#left_blanc {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 869px;
+    position: relative;
+    top: 10px;
+    background-color: blue;
+}
+
+#rabota {
+    width: 430px;
+    height: 391px;
+    background-color: #FFFCFC;
+}
+
+#rabota_con {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 30px;
+    width: 400px;
+    height: 391px;
+    background-color: #C5EDE3;
+}
+
+#icinca_rabota {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 391px;
+}
+
+#text_rabota {
+    padding: 0px 0px 0px 10px;
+    width: 330px;
+    height: 391px;
+}
+
+#text_me_rab {
+    width: 381px;
+    height: 332px;
+}
+
+.mobile {
+       padding: 0px 0px 0px 60px;
+}
+
+#gramota {
+    width: 430px;
+    height: 188px;
+    position: relative;
+    background-color: #FFFCFC;
+}
+
+#gramota_con {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+  top: 26px;
+    background-image: url("../images/main/gramota1.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+
+}
+
+#oan_place {
+    width: 430px;
+    height: 188px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #FFFCFC;
+    z-index: 2;
+}
+
+#oan_place_nagrada {
+    width: 430px;
+    height: 104px;
+    background-color: #C5EDE3;
+    position: absolute;
+  top: 42px;
+}
+
+#the_best_specialist {
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 12px;
+left: 150px;
+}
+
+
+#education {
+    width: 430px;
+    height: 290px;
+    background-color: #FFFCFC;
+}
+
+#yniver {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    height: 290px;
+    background-color: #C5EDE3;
+}
+
+#icinca_yniver {
+        position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 280px;
+    margin: 8px 0px 0px 0px;
+}
+
+#text_yniver {
+    padding: 0px 0px 0px 10px;
+    width: 381px;
+    height: 290px;
+}
+
+#text_me_yniver {
+    width: 381px;
+    height: 249px;
+}
+
+
+
+
+
+
+
+
+#right_blanc {
+    width: 430px;
+    height: 837px;
+    position: relative;
+    top: 30px;
+    background-color: #FFFCFC;
+        margin: 20px 0px 0px 0px;
+}
+
+#infirmeishen {
+    margin: 0px 20px 0px 20px;
+    width: 390px;
+    height: 837px;
+    background-color: #3DB695;
+}
+
+
+
+#men {
+      margin: 25px 0px 0px 60px;
+    color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+}
+
+
+.oan_str {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 390px;
+}
+
+
+#teanwork {
+     margin: 27px 0px 0px 20px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+.butt {
+          margin: 7px 7px 7px 7px;
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+#oan_pyst {
+    position: absolute;
+    top: 17px;
+    right: 0px;
+width: 68px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 15px 0px 0px 15px;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#sociability {
+         margin: 25px 0px 0px 150px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#pc {
+             margin: 17px 0px 0px 0px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+flex-shrink: 0;
+border-radius: 0px 15px 15px 0px;
+}
+
+#fast {
+         margin: 17px 0px 0px 180px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#drawing {
+         margin: 17px 0px 0px 35px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+#ty_pyst {
+margin: 37px 0px 0px 0px;
+width: 65px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 0px 15px 15px 0px;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#grammatically {
+    position: absolute;
+    top: 17px;
+    right: 37px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#habits {
+     margin: 17px 0px 0px 50px;
+border-radius: 15px;
+border: none;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+#three_pyst {
+        position: absolute;
+    top: 33px;
+    right: 0px;
+width: 43px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 15px 0px 0px 15px;
+background: #FFFCFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+#contact {
+      margin: 17px 0px 0px 30px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 282px;
+    height: 160px;
+}
+
+#icon_contact {
+        display: flex;
+    position: relative;
+    flex-direction: column;
+width: 82px;
+height: 160px;
+}
+
+#icon_mesto {
+width: 82px;
+height: 53px;
+}
+
+#icon_apfel {
+width: 82px;
+height: 53px;
+}
+
+#icon_mail {
+width: 82px;
+height: 53px;
+}
+
+.icon_ot {
+         margin: 0px 0px 0px 25px;
+}
+
+#text_contact {
+            display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 200px;
+height: 160px;
+}
+
+#text_mesto {
+    width: 200px;
+height: 53px;
+}
+
+#text_apfel {
+    width: 200px;
+height: 53px;
+}
+
+#text_mail {
+    width: 200px;
+height: 53px;
+}
+
+.text_infa {
+             margin: 15px 0px 0px 0px;
+             color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+
+
+footer {
+  position: relative;
+    width: 430px;
+    height: 166px;
+    margin: 0 auto;
+    background-color: #FFFCFC;
+}
+
+#obout_me {
+    position: absolute;
+    top: 4px;
+    width: 430px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #FFFCFC;
+}
+
+#obout_me_con {
+    width: 430px;
+    height: 180px;
+  position: absolute;
+  top: 0px;
+}
+
+#obout_me_window {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 162px;
+    background-color: #C5EDE3;
+    position: absolute;
+  top: 18px;
+}
+
+#iconca_obout_me {
+    width: 70px;
+    height: 148px;
+}
+
+#text_obout_me {
+    width: 370px;
+    height: 148px;
+}
+
+#text_me {
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    width: 300px;
+    height: 92px;
+  border-radius: 15px;
+  background: #FFFCFC;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin: 10px 0px 0px 10px;
+}
+
+
+#optimist {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+            text-decoration: none;
+            color: #000;
+}
+
+
+
+#closet {
+    width: 430px;
+    height: 166px;
+    position: absolute;
+  bottom: 0px;
+    background-image: url("../images/footer/closet_mobile3.png.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}    
